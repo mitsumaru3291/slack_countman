@@ -65,7 +65,7 @@ def end(message):
 
 #カウントを辞書式にして設定する。key,value の順
     count_list = g_status['count_list']
-    print(count_list)
+    print(count_list)#テスト
     count_status = dict(zip(count_list,original_count))
 
 #出席、欠席リストを簡略化
